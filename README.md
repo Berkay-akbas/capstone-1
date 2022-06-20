@@ -6,7 +6,7 @@
 
 ## Built With
 
-- HTML,SCSS and Javascript
+- HTML,SASS and Javascript
 - Visual Studio Code
 - GITHUB
 
