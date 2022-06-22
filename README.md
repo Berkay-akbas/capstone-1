@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-https://berkay-akbas.github.io/Portfolio-Page/
+https://berkay-akbas.github.io/capstone-1/
 
 ## Authors
 
