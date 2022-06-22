@@ -46,16 +46,16 @@ body {
   background-color: #f7f7f7;
   border: solid 3px #fff;
   padding: 1rem;
-  color: #5E5E5E;
+  color: #5e5e5e;
 }
 .header .date {
   font-size: 2.5rem;
   font-weight: 600;
-  color: #5E5E5E;
+  color: #5e5e5e;
   margin-bottom: 0;
 }
 .header .place {
-  color: #5E5E5E;
+  color: #5e5e5e;
   font-size: 1.3rem;
   margin-top: 0;
 }
@@ -105,6 +105,7 @@ body {
   text-align: center;
   color: #ec5242;
   max-width: 7rem;
+  min-width: 6rem;
   text-align: left;
 }
 .mainprogram .info .infotext {
@@ -212,6 +213,94 @@ body {
   display: none;
 }
 
+.info:hover {
+  border: 1px solid #fff;
+}
+
+.featured-artists {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.featured-artists h2 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: #272a31;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+.featured-artists h2::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 5%;
+  padding-top: 1rem;
+  border-bottom: 2px solid #ec5242;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 1rem;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+.grid-container .artist-card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.grid-container .artist-card img {
+  height: 10rem;
+  width: 10rem;
+  object-fit: fill;
+}
+.grid-container .artist-card .artist-img {
+  margin-top: -5rem;
+}
+.grid-container .artist-card .artist-img::before {
+  content: "";
+  position: relative;
+  display: flex;
+  right: 1.75rem;
+  top: 4.6rem;
+  width: 6rem;
+  height: 6rem;
+  z-index: -1;
+  background: white;
+  background-image: linear-gradient(45deg, #808080 25%, transparent 25%), linear-gradient(-45deg, #808080 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #808080 75%), linear-gradient(-45deg, transparent 75%, #808080 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
+.grid-container .artist-card .artist-info {
+  flex-direction: column;
+  padding-left: 1rem;
+}
+.grid-container .artist-card .artist-info h3 {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+.grid-container .artist-card .artist-info .artist-title {
+  color: #ec5242;
+  font-style: italic;
+  font-size: 1.2rem;
+  margin: 0;
+  margin-top: 0.2rem;
+}
+.grid-container .artist-card .artist-info .artist-text {
+  font-family: "Lato", sans-serif;
+  font-size: 0.8rem;
+  color: #272a31;
+  margin: 0;
+  margin-top: 1rem;
+}
+
 @media (max-width: 767px) {
   .topnavbar {
     display: none;
@@ -270,6 +359,13 @@ body {
     padding-left: 1rem;
     margin: 10px 0;
     list-style: none;
+  }
+  .artist-info {
+    display: flex;
+  }
+  .artist-info img {
+    height: 5rem;
+    max-width: 5rem;
   }
 }
 @media (min-width: 768px) {
