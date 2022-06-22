@@ -378,6 +378,10 @@ body {
       max-width: 5rem;
     }
   }
+  .info {
+    display: flex;
+    justify-content: flex-start !important;
+  }
 }
 
 @media (min-width: 768px) {
@@ -424,7 +428,7 @@ body {
       flex-direction: column;
       padding: 1rem 0.5rem 1rem;
       margin: 0.2rem;
-      // max-width: 15rem;
+      max-width: 10rem;
       justify-content: flex-start;
       .fa-solid {
         min-height: 1rem;
