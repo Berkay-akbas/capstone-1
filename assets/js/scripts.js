@@ -5,7 +5,7 @@ const desktopnav = document.querySelector('.desktopnav');
 const cc = document.querySelector('.cc');
 
 menu.addEventListener('click', () => {
-  logo.classList.toggle('off');
+  // logo.classList.toggle('off');
   navbar.classList.toggle('active');
   desktopnav.classList.toggle('active');
   menu.classList.toggle('fa-times');
@@ -13,7 +13,7 @@ menu.addEventListener('click', () => {
 });
 
 navbar.addEventListener('click', () => {
-  logo.classList.remove('off');
+  // logo.classList.remove('off');
   navbar.classList.remove('active');
   menu.classList.remove('fa-times');
   cc.classList.add('cc');

@@ -142,13 +142,13 @@ body {
   margin: 2rem 0 3rem;
 }
 
-.logo img {
-  width: 20rem;
-}
-
 .logo p {
   color: #5e5e5e;
   max-width: 25rem;
+}
+
+.logo img {
+  width: 20rem;
 }
 
 .past-summits {
@@ -436,6 +436,10 @@ body {
 
   .footer {
     display: none;
+  }
+
+  .desktoplogo {
+    text-align: center;
   }
 
   .navlinks {
