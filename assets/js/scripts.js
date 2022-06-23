@@ -23,21 +23,21 @@ const artistData = [
   {
     id: '1',
     name: 'Lynette Williams',
-    description: "R&B, Soul",
+    description: 'R&B, Soul',
     featuredimg: '/assets/images/lynettewilliams.jpeg',
     text: 'She writes music that is complex and simple, dark and joyful, abstract and tagible.',
   },
   {
     id: '2',
     name: 'Marbert Rocel',
-    description: "Dance, Electronic",
+    description: 'Dance, Electronic',
     featuredimg: '/assets/images/marbertrocel.jpeg',
     text: 'Within the Marbert Rocel Studio, a charming togetherness of alleged contrasts evolved, ranging from songs that suddenly become secret weapons on house music dance floors.',
   },
   {
     id: '3',
     name: 'Imam Baildi',
-    description: "Electronic, folk, world, country",
+    description: 'Electronic, folk, world, country',
     featuredimg: '/assets/images/imambaildi.jpeg',
     text: 'The band represents the idea of mixing rebetiko with different types of music.',
   },
@@ -51,7 +51,7 @@ const artistData = [
   {
     id: '5',
     name: 'Mop Mop',
-    description: "Jazz, funk, world music, nu-jazz",
+    description: 'Jazz, funk, world music, nu-jazz',
     featuredimg: '/assets/images/mopmop.jpeg',
     text: 'Featuring Funk legend Fred Wesley on trombone and Anthony Joseph on vocals.',
   },
