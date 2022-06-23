@@ -19,7 +19,7 @@ body {
 }
 
 .header {
-  background-image: url(/assets/images/background.jpg);
+  background-image: url(../images/background.jpg);
   background-size: cover;
   padding: 2rem 1rem 2rem;
   font-family: "Lato", sans-serif;
@@ -35,7 +35,7 @@ body {
 .header h1 {
   font-weight: 700;
   font-size: 4rem;
-  background-image: url(/assets/images/textbackground.jpeg);
+  background-image: url(../images/textbackground.jpeg);
   background-size: 150%;
   color: transparent;
   background-position: 95%;
@@ -211,12 +211,12 @@ body {
 }
 
 .past-summits .buenos {
-  background-image: url(/assets/images/pastfestivalone.jpg);
+  background-image: url(../images/pastfestivalone.jpg);
   background-size: cover;
 }
 
 .past-summits .warsaw {
-  background-image: url(/assets/images/pastfestivaltwo.jpg);
+  background-image: url(../images/pastfestivaltwo.jpg);
   background-size: cover;
 }
 
@@ -597,7 +597,7 @@ body {
 }
 
 .header-about {
-  background-image: url(/assets/images/background.jpg);
+  background-image: url(../images/background.jpg);
   background-size: cover;
   padding: 2rem 1rem 2rem;
   font-family: "Lato", sans-serif;
