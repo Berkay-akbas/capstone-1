@@ -1,0 +1,250 @@
+.header-about {
+  background-image: url(/assets/images/background.jpg);
+  background-size: cover;
+  padding: 2rem 1rem 2rem;
+  font-family: $lato;
+  min-width: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  .hello-about {
+    color: $colortwo;
+    font-size: 1.8rem;
+    margin-bottom: 0;
+  }
+
+  h1 {
+    font-weight: 900;
+    font-size: 3rem;
+    color: $colortwo;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+  .abouttext-about {
+    background-color: #fff;
+    border: solid 3px #fff;
+    padding: 1rem;
+    color: #5e5e5e;
+    line-height: 20pt;
+  }
+
+  .contactus {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #5e5e5e;
+    margin-bottom: 0;
+    max-width: 20rem;
+    line-height: 20pt;
+  }
+
+  .email {
+    color: #000;
+    font-size: 0.8rem;
+    margin-top: 0;
+    text-decoration: underline;
+  }
+}
+
+.partners-about {
+  background-color: $colorone;
+  text-align: center;
+  padding: 2rem;
+
+  h2 {
+    color: #f7f7f7;
+    margin: 0;
+    padding-bottom: 2rem;
+  }
+
+  h2::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    padding-top: 1rem;
+    border-bottom: 1px solid $colortwo;
+  }
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: $lato;
+  color: $colorone;
+  text-align: center;
+  padding-bottom: 3rem;
+  border-bottom: 2px solid #f4f4f4;
+  line-height: 20pt;
+
+  h2 {
+    line-height: 25pt;
+  }
+
+  p {
+    color: #5e5e5e;
+    max-width: 25rem;
+  }
+
+  img {
+    width: 20rem;
+  }
+
+  div {
+    border: 2px solid #f4f4f4;
+    padding: 1rem 2rem 1rem;
+    margin-top: 1rem;
+  }
+}
+
+.past-summits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 1rem;
+
+  h2 {
+    font-family: $lato;
+    color: $colorone;
+  }
+
+  h2::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 6%;
+    padding-top: 1rem;
+    border-bottom: 2px solid $colortwo;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    margin-top: 5rem;
+    font-family: $lato;
+  }
+
+  p {
+    color: #5e5e5e;
+    max-width: 25rem;
+    padding-bottom: 1rem;
+    margin-top: 0;
+    line-height: 20pt;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    min-height: 15rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    p {
+      color: #fff;
+      text-align: center;
+      font-family: $lato;
+      letter-spacing: 1px;
+    }
+  }
+
+  div {
+    width: 28rem;
+    min-width: 15rem;
+  }
+
+  .buenos {
+    background-image: url(/assets/images/pastfestivalone.jpg);
+    background-size: cover;
+  }
+
+  .warsaw {
+    background-image: url(/assets/images/pastfestivaltwo.jpg);
+    background-size: cover;
+  }
+}
+
+.footer-about {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  img {
+    max-width: 15rem;
+    height: 5rem;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+
+    p {
+      margin: 0;
+      padding-bottom: 1rem;
+      max-width: 15rem;
+      padding-top: 0.5rem;
+      color: #5e5e5e;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .extralogo {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .hello-about {
+    display: none;
+  }
+
+  .header-about {
+    padding-top: 3rem;
+
+    h1 {
+      max-width: 35rem;
+    }
+  }
+
+  .abouttext-about {
+    max-width: 45rem;
+  }
+
+  .extralogo {
+    margin-top: -1rem;
+  }
+
+  .pastwrapper {
+    display: flex;
+    justify-content: center;
+    width: 100% !important;
+
+    div {
+      width: 25rem !important;
+      padding: 1rem;
+    }
+  }
+
+  .partners-about {
+    display: none;
+  }
+
+  .footer-about {
+    background-color: $colorone;
+  }
+
+  .footertitle {
+    color: #f4f4f4 !important;
+  }
+}
